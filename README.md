@@ -1,5 +1,4 @@
-# github-api-portfolio
-GitHub REST API 기반 인증 및 이슈 기능 테스트
+# GitHub REST API 기반 인증 및 이슈 기능 테스트
 GitHub의 REST API 중 이슈(issue) 기능과 사용자 인증 과정을 중심으로
 QA 관점에서 테스트 시나리오를 설계하고 검증한 결과를 정리하였습니다.
 
