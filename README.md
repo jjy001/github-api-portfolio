@@ -12,3 +12,16 @@ QA 관점에서 테스트 시나리오를 설계하고 검증한 결과를 정�
 - 이슈 생성 / 수정 / 삭제 (POST, PATCH, DELETE)
 - OAuth 토큰 없이 호출 시 응답 처리 확인
 - 스코프(scope)에 따른 API 접근 제어 검증
+
+
+## 🛠 사용 도구 및 환경
+- GitHub Personal Access Token (PAT) 활용
+- Postman + Bearer Token 인증 방식
+- API 문서: [GitHub REST API](https://docs.github.com/en/rest)
+
+
+## 🧩 회고
+이번 포트폴리오를 통해 API 테스트 시 예상 응답이 명확하지 않거나
+문서화되지 않은 예외가 있을 때 QA가 어떤 기준을 가지고 테스트해야 하는지를 체감했습니다.  
+특히 인증 스코프에 따른 접근 차단 테스트는 문서만 보면 놓치기 쉬운 항목이라  
+직접 요청을 구성하고 다양한 조합으로 시도해보며 경험적으로 정리할 수 있었습니다.
